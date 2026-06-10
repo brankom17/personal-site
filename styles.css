@@ -48,8 +48,6 @@ a {
 }
 a:hover { text-decoration: underline; }
 
-.accent { color: var(--accent); }
-
 /* ============================================================
    Hero
    ============================================================ */
@@ -154,7 +152,8 @@ a:hover { text-decoration: underline; }
 }
 .timeline__org {
   margin: 0 0 10px;
-  color: var(--accent);
+  color: var(--text-muted);
+  font-weight: 500;
   font-size: 0.95rem;
 }
 .timeline__desc {
